@@ -1,0 +1,26 @@
+# GET http://localhost:3000/user/userlist HTTP/1.1
+
+# POST http://localhost:3000/user/insertUser HTTP/1.1
+# Content-Type: application/json
+
+# {
+#     "username": " Bengun",
+#     "email": "test@gmail.com", 
+#     "mobile": {
+#         "code": "+91",
+#         "number": "342425454354"
+#     }
+# }
+
+PUT http://localhost:3000/user/updateUser HTTP/1.1
+Content-Type: application/json
+
+{
+    "id": "621dc8a846a30d571b453147",
+    "email": "astaparker@gmail.com"
+}
+
+# DELETE http://localhost:3000/user/deleteUser/621dc8a846a30d571b453147 HTTP/1.1
+
+
+# GET http://localhost:3000/test/sample HTTP/1.1
